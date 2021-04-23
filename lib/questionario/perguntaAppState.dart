@@ -74,6 +74,7 @@ class PerguntaAppState extends State<PerguntaApp> {
               )
             : Resultado(_pontuacaoTotal, _reiniciarQuestionario),
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
